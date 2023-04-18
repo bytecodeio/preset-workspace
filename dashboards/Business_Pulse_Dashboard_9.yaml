@@ -1,0 +1,72 @@
+dashboard_title: Business Pulse Dashboard
+description: null
+css: ".chart-id-80 {\n  color:#FF0000; !important\n}"
+slug: null
+uuid: 99c2d2dd-74ea-478d-8552-8bb3902967b0
+position:
+  CHART-vWVbIBcEwL:
+    children: []
+    id: CHART-vWVbIBcEwL
+    meta:
+      chartId: 80
+      height: 50
+      sliceName: Total Sales YTD
+      uuid: 5f066557-3dcc-453e-9f98-5db6ef529060
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-qAfDPxOWzP
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-qAfDPxOWzP
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Business Pulse Dashboard
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-qAfDPxOWzP:
+    children:
+    - CHART-vWVbIBcEwL
+    id: ROW-qAfDPxOWzP
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration: {}
+  color_scheme: googleCategory10c
+  color_scheme_domain:
+  - '#3366cc'
+  - '#dc3912'
+  - '#ff9900'
+  - '#109618'
+  - '#990099'
+  - '#0099c6'
+  - '#dd4477'
+  - '#66aa00'
+  - '#b82e2e'
+  - '#316395'
+  cross_filters_enabled: true
+  default_filters: '{}'
+  expanded_slices: {}
+  label_colors:
+    '2023': '#000000'
+  native_filter_configuration: []
+  refresh_frequency: 0
+  shared_label_colors: {}
+  timed_refresh_immune_slices: []
+version: 1.0.0
